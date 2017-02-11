@@ -28,7 +28,7 @@ class FirstTDDemoTests: XCTestCase {
     let string = "Karsten"
     
     
-    let numberOfVowels = viewController.numberOfVowels(in: string)
+    let numberOfVowels = viewController.numberOfVowels(inString: string)
     
     
     XCTAssertEqual(numberOfVowels, 2,
