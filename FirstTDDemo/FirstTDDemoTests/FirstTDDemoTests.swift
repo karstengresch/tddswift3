@@ -20,6 +20,19 @@ class FirstTDDemoTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
+  
+  func test_NumberOfVowels_WhenPassedKarsten_ReturnsTwo() {
+    let viewController = ViewController()
     
+    
+    let string = "Karsten"
+    
+    
+    let numberOfVowels = viewController.numberOfVowels(in: string)
+    
+    
+    XCTAssertEqual(numberOfVowels, 2,
+                   "should find 2 vowels in Karsten")
+  }
     
 }
