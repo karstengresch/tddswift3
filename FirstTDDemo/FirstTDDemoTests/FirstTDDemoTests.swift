@@ -34,5 +34,10 @@ class FirstTDDemoTests: XCTestCase {
     XCTAssertEqual(numberOfVowels, 2,
                    "should find 2 vowels in 'Karsten'", file: "FirstTDDemoTests.swift", line: 24)
   }
+  
+  func test_MakeHeadline_ReturnsStringWithEachWordStartCapital() {
+    
+  }
+  
     
 }
