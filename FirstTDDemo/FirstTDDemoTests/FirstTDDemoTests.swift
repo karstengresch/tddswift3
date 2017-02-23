@@ -39,7 +39,7 @@ class FirstTDDemoTests: XCTestCase {
     let viewController = ViewController()
     let string = "this is A test headline"
     let headline = viewController.makeHeadline(from: string)
-    
+    // XCTAssert(, "Headline should have each word in capitals")
   }
   
     

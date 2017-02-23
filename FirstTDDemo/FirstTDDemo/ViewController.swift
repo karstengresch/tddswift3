@@ -32,8 +32,7 @@ class ViewController: UIViewController {
   }
   
   func makeHeadline(from string: String) -> String {
-    
-    return string
+    return string.capitalized
   }
   
  
