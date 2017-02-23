@@ -36,6 +36,9 @@ class FirstTDDemoTests: XCTestCase {
   }
   
   func test_MakeHeadline_ReturnsStringWithEachWordStartCapital() {
+    let viewController = ViewController()
+    let string = "this is A test headline"
+    let headline = viewController.makeHeadline(from: string)
     
   }
   
